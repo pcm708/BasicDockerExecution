@@ -1,4 +1,5 @@
 # BasicDockerExecution WITHOUT any docker.bat file
+PreRequisite: Docker should be installed in the system
 We have 2 commands to setup docker:
 1. Creating a hub container: 
 ## docker run -d -p 4444:4444 --name selenium-hub selenium/hub:latest
